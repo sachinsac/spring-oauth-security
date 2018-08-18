@@ -8,3 +8,5 @@ Header - Authorization : Basic {value} - value is basic encoding of clientId:Sec
 
 Body - Form-urlencoded
   grant_type - client_credentials
+  
+Use access_token to make request to secured resources. Pass the access_token in header as Authorization Bearer type
